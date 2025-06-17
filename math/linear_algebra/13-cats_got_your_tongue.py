@@ -3,8 +3,6 @@
 concatenates two matrices along a specific axis
 """
 
-import numpy as np
-
 
 def np_cat(mat1, mat2, axis=0):
     """
@@ -13,7 +11,10 @@ def np_cat(mat1, mat2, axis=0):
     Parameters:
     mat1 (numpy.ndarray): The first array to concatenate.
     mat2 (numpy.ndarray): The second array to concatenate.
-    axis (int, optional): The axis along which the arrays will be concatenated. Default is 0.
+    axis (int, optional): The axis along which the arrays
+    will be concatenated.
+    
+    Default is 0.
 
     Returns:
     numpy.ndarray: The concatenated array.
@@ -27,4 +28,5 @@ def np_cat(mat1, mat2, axis=0):
            [3, 4],
            [5, 6]])
     """
+    import numpy as np
     return np.concatenate((mat1, mat2), axis=axis)
