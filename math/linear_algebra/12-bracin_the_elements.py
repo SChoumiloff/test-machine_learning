@@ -15,7 +15,7 @@ def np_elementwise(mat1, mat2):
         mat2 (numpy.ndarray): The second input matrix.
 
     Returns:
-        tuple: A tuple containing the results of element-wise addition, 
+        tuple: A tuple containing the results of element-wise addition,
                subtraction, multiplication, and division, in that order.
     """
     add = mat1 + mat2
