@@ -15,5 +15,5 @@ def add_arrays(arr1, arr2):
         SystemExit: If the arrays are not of the same length.
     """
     if len(arr1) != len(arr2):
-        exit(1)
+        return None
     return [arr1[i] + arr2[i] for i in range(len(arr2))]
