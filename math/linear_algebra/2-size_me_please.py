@@ -1,8 +1,6 @@
 #!/usr/bin/env python3
-from typing import List
 
-
-def matrix_shape(matrix) -> List[int]:
+def matrix_shape(matrix):
     dimensions = []
     while True:
         if isinstance(matrix, list) and len(matrix) > 0:
