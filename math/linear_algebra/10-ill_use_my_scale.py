@@ -4,10 +4,7 @@ this module compute shape of nparray
 """
 
 
-import numpy as np
-
-
-def np_shape(matrix: np.ndarray) -> tuple:
+def np_shape(matrix) -> tuple:
     """
     Get the shape of a numpy array.
 

@@ -3,6 +3,7 @@
 module for matrix shape
 """
 
+
 def matrix_shape(matrix):
     """The function determines the dimensions of a nested list
     (matrix) by iteratively traversing its structure and
