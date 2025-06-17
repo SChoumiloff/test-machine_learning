@@ -17,7 +17,7 @@ def cat_matrices2D(mat1, mat2, axis=0):
     """
     matrix = []
     if axis == 0:
-        if len(mat2[0]) != len(mat1[0]):
+        if len(mat2[0]) != len(mat1[0]) or not mat2 or not mat1:
             return None
         for i in range(len(mat1)):
             matrix.append(mat1[i])
@@ -25,7 +25,7 @@ def cat_matrices2D(mat1, mat2, axis=0):
             matrix.append(mat2[i])
         return matrix
     elif axis == 1:
-        if len(mat2) != len(mat1[0]):
+        if len(mat2) != len(mat1) or not mat2 or not mat1:
             return None
         matrix = [row[:] for row in mat1]
         for i in range(len(mat2)):
