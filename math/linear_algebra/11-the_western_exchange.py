@@ -3,7 +3,6 @@
 """
 Module transpose np
 """
-import numpy as np
 
 
 def np_transpose(matrix):
@@ -16,5 +15,5 @@ def np_transpose(matrix):
     Returns:
         numpy.ndarray: The transposed matrix.
     """
-    a = np.transpose(matrix)
+    a = matrix.transpose()
     return a
