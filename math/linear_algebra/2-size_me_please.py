@@ -5,12 +5,14 @@ module for matrix shape
 
 
 def matrix_shape(matrix):
-    """The function determines the dimensions of a nested list
-    (matrix) by iteratively traversing its structure and
-    counting the number of elements at each level.
+    """The function determines the dimensions of
+    a nested list (matrix) by iteratively
+    traversing its structure and counting
+    the number of elements at each level.
 
     Args:
-        matrix (list): A nested list representing the matrix.
+        matrix (list): A nested list representing
+        the matrix.
 
     Returns:
         list: A list of integers representing the dimensions
