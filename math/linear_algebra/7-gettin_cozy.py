@@ -15,6 +15,8 @@ def cat_matrices2D(mat1, mat2, axis=0):
     Returns:
         list of lists: The concatenated matrix, or None if the axis is invalid.
     """
+    if len(mat1) != len(mat2):
+        return None
     matrix = []
     if axis == 0:
         for i in range(len(mat1)):
