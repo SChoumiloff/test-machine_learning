@@ -1,4 +1,7 @@
 #!/usr/bin/env python3
+"""
+module for matrix shape
+"""
 
 def matrix_shape(matrix):
     """The function determines the dimensions of a nested list
