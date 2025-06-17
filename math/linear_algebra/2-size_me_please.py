@@ -1,8 +1,7 @@
 #!/usr/bin/env python3
 
 def matrix_shape(matrix):
-    """
-    The function determines the dimensions of a nested list
+    """The function determines the dimensions of a nested list
     (matrix) by iteratively traversing its structure and
     counting the number of elements at each level.
 
