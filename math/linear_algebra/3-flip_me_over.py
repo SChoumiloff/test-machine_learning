@@ -2,10 +2,12 @@
 
 def matrix_transpose(matrix):
     """Transpose a given matrix.
-    This function takes a 2D list (matrix) as input and returns its transpose.
-    The transpose of a matrix is obtained by flipping rows and columns.
+    This function takes a 2D list (matrix) as input and returns
+    its transpose. The transpose of a matrix is obtained by
+    flipping rows and columns.
     Args:
-        matrix (list): A 2D list representing the matrix to be transposed.
+        matrix (list): A 2D list representing the matrix to
+        be transposed.
     Returns:
         list: A 2D list representing the transposed matrix.
     Raises:
