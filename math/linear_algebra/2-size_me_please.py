@@ -2,8 +2,6 @@
 
 def matrix_shape(matrix):
     """
-    Calculate the shape of a given matrix.
-
     The function determines the dimensions of a nested list
     (matrix) by iteratively traversing its structure and
     counting the number of elements at each level.
