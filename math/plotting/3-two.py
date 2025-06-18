@@ -21,6 +21,6 @@ def two():
     plt.title("Exponential Decay of Radioactive Elements")
     plt.xlim([0, 20000])
     plt.ylim([0, 1])
-    plt.plot(x, y1, color='red', linestyle='dashed')
-    plt.plot(x, y2, color='green', linestyle='solid')
+    plt.plot(x, y1, color='red', linestyle='dashed', label='C-14')
+    plt.plot(x, y2, color='green', linestyle='solid', label='Ra-226')
     plt.show()
