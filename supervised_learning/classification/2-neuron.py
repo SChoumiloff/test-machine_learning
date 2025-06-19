@@ -14,23 +14,23 @@ class Neuron:
         if nx < 1:
             raise ValueError('nx must be a positive integer')
         self.nx = nx
-        self._W = np.random.normal(size=(1, self.nx))
-        self._b = 0
-        self._A = 0
+        self.__W = np.random.normal(size=(1, self.nx))
+        self.__b = 0
+        self.__A = 0
 
     def forward_prop(self, X):
-        Z = np.matmul(self._W, X) + self._b
-        self._A = 1 / (1 + np.exp(-Z))
-        return self._A
+        Z = np.matmul(self.__W, X) + self.__b
+        self.__A = 1 / (1 + np.exp(-Z))
+        return self.__A
 
     @property
     def W(self):
-        return self._W
+        return self.__W
 
     @property
     def b(self):
-        return self._b
+        return self.__b
 
     @property
     def A(self):
-        return self._A
+        return self.__A
