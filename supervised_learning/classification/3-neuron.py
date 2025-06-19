@@ -31,7 +31,7 @@ class Neuron:
         m: int = Y.shape[1]
         coef = - 1 / m
         assert Y.shape[1] == A.shape[1]
-        cost = coef * np.sum(Y * np.log(A) + (1 - Y) * np.log(1.000000001 - A))
+        cost = coef * np.sum(Y * np.log(A) + (1 - Y) * np.log(1.0000001 - A))
         return cost
 
     @property
