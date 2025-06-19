@@ -14,11 +14,7 @@ class Neuron:
         if nx < 1:
             raise ValueError('nx must be a positive integer')
         self.nx = nx
-        self._W = np.random.normal(
-            loc=0,
-            scale=1,
-            size=(1, self.nx)
-        )
+        self._W = np.random.normal(size=(1, self.nx))
         self._b = 0
         self._A = 0
 
