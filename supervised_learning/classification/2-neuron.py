@@ -19,6 +19,8 @@ class Neuron:
         self.__A = 0
 
     def forward_prop(self, X):
+        """forward prop documentation
+        """
         Z = np.matmul(self.__W, X) + self.__b
         self.__A = 1 / (1 + np.exp(-Z))
         return self.__A
