@@ -29,7 +29,3 @@ class Neuron:
     @property
     def A(self):
         return self._A
-
-    @A.setter
-    def A(self, a):
-        self._A = a
